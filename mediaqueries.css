@@ -1,0 +1,56 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+      display: none;
+    }
+    #hamburger-nav {
+      display: flex;
+    }
+
+    .main-container {
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .project img {
+        width: 50vw;
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 451px) {
+    .st {
+        font-size: 30px;
+    }
+
+    .project img {
+        height: 200px;
+        width: 50vw;
+    }
+
+    #contact {
+        height: 180vh;
+    }
+
+    #about {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .st {
+        font-size: 20px;
+    }
+
+    .project img {
+        height: 200px;
+        width: 50vw;
+    }
+
+    #contact {
+        height: 180vh;
+    }
+
+    #about {
+        height: 160vh;
+    }
+}
