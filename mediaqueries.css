@@ -17,7 +17,12 @@
     }
 }
 
-@media screen and (max-width: 458px) {
+@media screen and (max-width: 451px) {
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
     .st {
         font-size: 30px;
     }
@@ -36,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 360px) {
     .st {
         font-size: 20px;
     }

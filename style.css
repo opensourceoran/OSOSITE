@@ -58,6 +58,10 @@ header nav li ul {
     font-size: 1.7rem;
 }
 
+.menu-links.open {
+    background-color: gray;
+}
+
 .join {
     border-radius: 50px;
     padding: 10px;
@@ -133,7 +137,7 @@ header nav li ul {
   }
   
   .menu-links.open {
-    max-height: 300px;
+    max-height: fit-content;
   }
   
   .hamburger-icon.open span:first-child {
@@ -186,6 +190,7 @@ header nav li ul {
     flex-wrap: wrap;
     height: 70vh;
 }
+
 
 .info {
     width: 600px;
